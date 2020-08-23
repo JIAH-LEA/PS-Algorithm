@@ -1,3 +1,5 @@
+package Programmers_LV1;
+
 public class SumDivisor {
         public static void main(String[] args) {
             SumDivisor c = new SumDivisor();
