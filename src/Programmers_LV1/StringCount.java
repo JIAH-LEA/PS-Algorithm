@@ -1,11 +1,6 @@
 package Programmers_LV1;
 
 public class StringCount {
-    //test code
-    public static void main(String[] args) {
-        StringCount s = new StringCount();
-        System.out.println(s.countstring("Hello java"));
-    }
 
     boolean countstring(String s) {
         s = s.toUpperCase();
@@ -24,5 +19,11 @@ public class StringCount {
         }
         // return pCount==yCount?true:false;(불필요했던 나의 원코드)
         return pCount == yCount;
+    }
+
+    //test code
+    public static void main(String[] args) {
+        StringCount s = new StringCount();
+        System.out.println(s.countstring("Hello java"));
     }
 }
