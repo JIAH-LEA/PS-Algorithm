@@ -14,6 +14,6 @@ public class findAverage {
    public static void main(String args[]) {
         int x[] = {1, 2, 3, 4};
         findAverage average = new findAverage();
-        System.out.println(average.average(x));
+        System.out.println(average.average(x)); 
     }
 }
