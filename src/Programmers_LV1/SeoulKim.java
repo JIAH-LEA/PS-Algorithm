@@ -7,11 +7,10 @@ public class SeoulKim {
         String[] names = {"Queen", "Tod","Kim"};
         System.out.println(kim.Solution(names));
     }
-
     public String Solution(String[] seoul){
        int x=0;
        while(x<seoul.length){
-           if(seoul[x]=="kim")
+           if(seoul[x].equals("kim"))
                break;
            else
                x++;
